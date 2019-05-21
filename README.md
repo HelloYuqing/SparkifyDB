@@ -98,7 +98,7 @@ A Star schema is used to model the available data. This allows for flexible adho
 
 ## Running the ETL pipeline
 
-0  Ensure the `data` folder and all proect files are downloaded and that all dependencies are met. 
+0  Ensure the `data` folder and all project files are downloaded and that all dependencies are met. Replace the given connection strings in `create_tables.py`, `etl.ipynb` and `etl.py` with your own, pointing to a postgres database server you have set up.
 
 1  Run `create_tables.py` to initialise the database.
 
